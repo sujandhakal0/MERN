@@ -1,0 +1,204 @@
+
+/* css reset */
+/* end of css reset */
+/* variablea */
+:root{
+  --primary-color: #F54747;
+}
+/* end of variables */
+/* topography */
+/* end of topography */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  /* border: 3px solid red; */
+  width: 1140px;
+  /* height: 100vh; */
+  background-color:#ffff;
+  font-family: "Rubik", sans-serif;
+}
+.bold-500{
+  font-weight: 500;
+}
+.bold-700{
+  font-weight: 700;
+}
+/* .................................................NAVBAR............................................................ */
+header{
+  margin-top: 50px;
+  display: flex;
+ flex-direction: column;
+ gap: 50px;
+}
+nav {
+  /* width: 1140px; */
+  /* margin-top: 50px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  /* border: 3px solid red; */
+}
+.logo{
+
+  height: auto;
+  left: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+a {
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.nv-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nv-2 {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  gap: 20px;
+}
+.nv-2 a{
+    color: #4F5665;
+}
+.nv-2 a:hover{
+  color: var(--primary-color);;
+}
+.vpn {
+  font-weight: bold;
+}
+.nv-3 li {
+  font-weight: bold;
+  margin-left: 20px;
+}
+.sing-in-button{
+  cursor: pointer;
+}
+.sing-in-button:hover{
+  color:var(--primary-color);;
+}
+.sign-up-buttton{
+  border: 2px solid var(--primary-color);;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: white;
+  color: var(--primary-color);;
+  padding: 10px 24px;
+  cursor: pointer;
+
+}
+.sign-up-buttton:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+/* ................................................ HEADER IMAGE.......................................................... */
+.header-content{
+  /* margin-top: 50px; */
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  /* gap: 26px; */
+}
+.heading{
+  color:  #0B132A;
+  font-size: 50px;
+  /* font-weight: 500; */
+  width: 555px;
+}
+.heading-content-1{
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.sub-heading{
+  color: #4F5665;
+  font-size: 16px;
+  width: 555px;
+  height: 60px;
+  
+}
+.get-started-btn{
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--primary-color);;
+  border: none;
+  cursor: pointer;
+}
+.get-started-btn:hover{
+  color: var(--primary-color);;
+  background: #fff;
+  border:1px solid var(--primary-color);;
+}
+.heading-content-2 img{
+  /* border: 2px solid blue; */
+  width: 637.24px;
+  height: 382.33px;
+}
+/* ..............................................VIEW............................ */
+.view{
+  width: 1140px;
+  height: 200px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-radius: 10px; */
+  padding: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* border: 2px solid blue; */
+}
+.view-items{
+  display: flex;
+  gap: 26px;
+}
+.view-text{
+  font-size: 25px;
+  /* border: 2px solid red; */
+}
+.text{
+  color: #7B808B;
+}
+.vertical-line{
+  color: silver;
+  height: 125px;
+  width: 4px;
+}
+.vertical-line {
+  width: 2px;
+  background-color: #EEEFF2;
+  height: 125px; 
+}
+/* .....................................MAIN................................................ */
+main{
+  border: 2px solid red;
+}
+.main-1-text{
+  font-size: 35px;
+}
+.mian-1 p{
+  font-size: 16px;
+}
