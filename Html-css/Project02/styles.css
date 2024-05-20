@@ -23,7 +23,7 @@ body {
   /* border: 3px solid red; */
   width: 1140px;
   /* height: 100vh; */
-  background-color:#ffff;
+  background-color:#fff;
   font-family: "Rubik", sans-serif;
 }
 .bold-500{
@@ -32,6 +32,7 @@ body {
 .bold-700{
   font-weight: 700;
 }
+
 /* .................................................NAVBAR............................................................ */
 header{
   margin-top: 50px;
@@ -49,7 +50,6 @@ nav {
   /* border: 3px solid red; */
 }
 .logo{
-
   height: auto;
   left: 0;
 }
@@ -69,12 +69,14 @@ a {
   align-items: center;
   gap: 10px;
 }
-.nv-2 {
+.nv-2 ul{
   display: flex;
-  justify-content: center;
   width: 60%;
   gap: 20px;
 }
+/* .nv-2 li{
+  margin-right: 20px;
+} */
 .nv-2 a{
     color: #4F5665;
 }
@@ -84,9 +86,13 @@ a {
 .vpn {
   font-weight: bold;
 }
+.nv-3 ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .nv-3 li {
   font-weight: bold;
-  margin-left: 20px;
 }
 .sing-in-button{
   cursor: pointer;
@@ -168,7 +174,7 @@ a {
   align-items: center;
   /* border-radius: 10px; */
   padding: 50px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   /* border: 2px solid blue; */
 }
 .view-items{
@@ -193,12 +199,57 @@ a {
   height: 125px; 
 }
 /* .....................................MAIN................................................ */
-main{
-  border: 2px solid red;
+/* main{
+
+  width: 1140px;
+} */
+.main-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  padding: 50px;
+
 }
+.main-1 img{
+width: 508.12px;
+height: 414.71px;
+/* border: 2px solid blue; */
+}
+.main-1 ul img{
+  height: 24px;
+  width: 24px;
+}
+.main-1 aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 26px;
+  /* border: 2px solid blue; */
+
+ }
 .main-1-text{
+  margin-top: 70px;
   font-size: 35px;
 }
-.mian-1 p{
+
+aside p{
+  color: #5c6371;
   font-size: 16px;
+}
+aside ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+aside ul div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+aside li{
+  color: #5a616f;
+  font-size: 14px;
+  list-style: none;
+
 }
