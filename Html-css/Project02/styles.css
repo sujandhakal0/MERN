@@ -141,6 +141,7 @@ a {
   font-size: 16px;
   width: 555px;
   height: 60px;
+  line-height: 30px;
   
 }
 .get-started-btn{
@@ -203,6 +204,7 @@ a {
 
   width: 1140px;
 } */
+/* ..........................main-1 */
 .main-1{
   display: flex;
   justify-content: space-between;
@@ -236,6 +238,7 @@ height: 414.71px;
 aside p{
   color: #5c6371;
   font-size: 16px;
+  line-height: 30px;
 }
 aside ul{
   display: flex;
@@ -252,4 +255,119 @@ aside li{
   font-size: 14px;
   list-style: none;
 
+}
+/* ...........................mian-2 */
+.main-2{
+  /* border: 2px solid blue; */
+  background-color: #FCFCFC;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.main-2-text{
+  font-size: 35px;
+  text-align: center;
+}
+.main-2 p{
+  color: #5c6371;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+}
+.main-2-boxes{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.main-2-box{
+  border: 3px solid #E5E5E5;
+  width: 330px;
+  height: 760px;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-2-gap{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.main-2 .free-img{
+  margin-left: 10px;
+} 
+.main-2 .free-img-2{
+  margin-left: 5px;
+} 
+.main-2 .free-img-3{
+  margin-left: 5px;
+} 
+.main-2-heading{
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+.main-2 .list li{
+  font-size: 14px;
+  list-style: none;
+  color: #4F5665;
+  font-weight: 400;
+}
+.main-2 .list li:before {
+  content: "✓ ";
+  color: green;
+  padding-right: 10px;
+  }
+.main-2-ul-1{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-2-ul-2{
+  height: 190px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-2-ul-3{
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-2 .price{
+  font-size: 25px;
+  text-align: center;
+}
+
+.main-2 .price-sep{
+  color: #5c6371;
+}
+.select-button{
+  border: 2px solid var(--primary-color);;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: white;
+  color: var(--primary-color);;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+.main-2-button .select-button:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+ul.main-2-button li{
+  list-style: none;
+}
+.main-2 .pricing{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
